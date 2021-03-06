@@ -1,0 +1,2 @@
+default["lamp_stack"]["repos"]["pgdg"] = { "repositoryid" => "postgres", "description" => "PostgreSQL 11 $releasever - $basearch", "baseurl" => "http://download.postgresql.org/pub/repos/yum/11/redhat/rhel-$releasever-$basearch/", "enabled" => true, "gpgcheck" => false }
+default["lamp_stack"]["repos"]["pgdg-source"] = { "repositoryid" => "postgres", "description" => "PostgreSQL 11 $releasever - $basearch - Source", "baseurl" => "http://yum.postgresql.org/srpms/11/redhat/rhel-$releasever-$basearch", "enabled" => true, "gpgcheck" => false }
